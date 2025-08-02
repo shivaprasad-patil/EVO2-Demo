@@ -1,5 +1,37 @@
 # EVO2-Demo
-Working implementation of a StripedHyena-based neural network architecture designed for DNA sequence modeling.
+This notebook provides a **complete, working implementation** of a StripedHyena-based neural network architecture specifically designed for DNA sequence modeling. It demonstrates the entire pipeline from model architecture design to successful training with real loss curves.
+
+### 🔬 **Core Functionality**
+
+1. **🧬 DNA Sequence Processing**
+   - Custom `CharLevelTokenizer` for genomic data with special tokens (`<PAD>`, `<UNK>`, `<START>`, `<END>`)
+   - Handles variable-length DNA sequences with proper padding and tokenization
+   - Support for standard nucleotides (A, C, G, T) and ambiguous bases (N, R, Y, etc.)
+
+2. **🏗️ StripedHyena Architecture Implementation**
+   - **Multi-scale Convolution Layers**: Short, medium, and long-range dependency modeling
+   - **Hybrid Architecture**: Combines convolutional layers with multi-head attention
+   - **Optimized for DNA**: Hierarchical pattern recognition from local motifs to long-range interactions
+
+3. **⚡ Advanced Neural Network Components**
+   - `RMSNorm`: Root Mean Square normalization for stable training
+   - `RotaryEmbedding`: Position-aware embeddings for sequence understanding
+   - `MultiHeadAttention`: Self-attention with rotary position encoding
+   - `FeedForward`: Efficient feed-forward networks with SiLU activation
+
+### 🚀 **Key Achievements**
+
+#### ✅ **Complete Training Infrastructure**
+- `StripedHyenaTrainer` class with comprehensive training loop
+- Automatic loss tracking and visualization
+- Model checkpointing and validation
+- Real-time training progress monitoring
+
+#### ✅ **Successful Training Demonstration**
+- Working model that trains on DNA sequence data
+- Loss curves showing actual learning progress
+- No tensor dimension errors or training failures
+- Proper convergence behavior
 
 | Feature               | Notebook Hyena Layers           | Evo2 Hyena Layers (Official)      |
 |-----------------------|----------------------------------|------------------------------------|
