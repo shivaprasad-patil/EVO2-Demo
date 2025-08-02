@@ -32,6 +32,7 @@ This notebook provides a **complete, working implementation** of a StripedHyena-
 - Loss curves showing actual learning progress
 - No tensor dimension errors or training failures
 - Proper convergence behavior
+  
 
 | Feature               | Notebook Hyena Layers           | Evo2 Hyena Layers (Official)      |
 |-----------------------|----------------------------------|------------------------------------|
