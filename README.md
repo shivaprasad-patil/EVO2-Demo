@@ -1,5 +1,5 @@
 # EVO2-Demo
-This notebook provides a **complete, working implementation** of a StripedHyena-based neural network architecture specifically designed for DNA sequence modeling. It demonstrates the entire pipeline from model architecture design to successful training with real loss curves.
+This notebook provides a **complete, working implementation** of a StripedHyena-based neural network architecture specifically designed for DNA sequence modeling. It demonstrates the entire pipeline from model architecture design to successful training with loss curves. This notebook is for 📖 **Educational demonstrations** of the architecture of EVO2.
 
 ### 🔬 **Core Functionality**
 
